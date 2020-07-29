@@ -39,6 +39,6 @@ If he clicks on start recipe ("Iniciar Receita"), the ingredient steps changes t
 1) Clone or download the repository
 2) Install dependencies with `npm install`
 3) Enter the project folder and run `npm start`
-4) Visit `http://localhost:3000/recipes-react-app/`
+4) Visit `http://localhost:3000/`
 
 Thanks for visiting :)
