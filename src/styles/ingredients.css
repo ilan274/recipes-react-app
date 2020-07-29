@@ -1,0 +1,7 @@
+.selected {
+  text-decoration: line-through solid black;
+}
+
+.notSelected {
+  text-decoration: none;
+}

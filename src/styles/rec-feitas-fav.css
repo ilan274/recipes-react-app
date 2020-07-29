@@ -1,0 +1,94 @@
+@media screen and ( max-width : 760px ) {
+
+  .Fav {
+    max-width: 400px;
+  }
+
+  .Fav-Card {
+    max-width: 400px;
+  }
+
+  .Rec-Image {
+    max-height: 250px;
+    max-width: 200px;
+  }
+}
+
+.Filter-Button {
+  background-color: #588582;
+  border-color: #588582;
+  border-radius: 10%;
+  font-size: 12pt;
+  height: 50px;
+  margin: 10px 5px;
+  width: 120px;
+}
+
+.Fav {
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+  width: 450px;
+}
+
+.Fav-Card {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+}
+
+.Rec-Image {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 300px;
+  justify-content: center;
+  margin: 0 10px 10px;
+  padding: 10px;
+  width: 250px;
+}
+
+.Infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.Fav-Title {
+  font-size: 16pt;
+}
+
+.Rec-Name {
+  color: black;
+  font-size: 14pt;
+  text-decoration: none;
+}
+
+.Icon-Button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  width: 50px;
+}
+
+.Icon-Button:focus {
+  background-color: white;
+  border: none;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  outline: none;
+  width: 50px;
+}
+
+.Icon-Div {
+  display: flex;
+  justify-content: center;
+}

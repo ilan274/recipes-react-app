@@ -1,0 +1,122 @@
+@media screen and ( max-width : 760px ) {
+
+  .Container {
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  .Category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Div {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+  }
+
+  .Cards {
+    max-width: 100px;
+    padding: 5px;
+  }
+}
+
+.Header {
+  align-items: center;
+  background-color: #588582;
+  display: flex;
+  font-size: 16pt;
+  justify-content: space-around;
+  max-height: 65px;
+}
+
+.Icon {
+  background-color: #588582;
+  border: none;
+  cursor: pointer;
+  padding: 0 15px;
+}
+
+.Icon:focus {
+  background-color: #588582;
+  border: none;
+  outline: none;
+  padding: 0 15px;
+}
+
+.Input-Search {
+  font-size: 16pt;
+  height: 40px;
+  width: 90%;
+}
+
+.Radio {
+  display: flex;
+  font-size: 16pt;
+  justify-content: space-around;
+}
+
+.Category {
+  display: flex;
+  justify-content: center;
+}
+
+.Category button {
+  background-color: #588582;
+  border-color: #588582;
+  border-radius: 10%;
+  color: black;
+  font-size: 11pt;
+  height: 50px;
+  margin: 10px 5px;
+  width: 120px;
+}
+
+.Footer {
+  align-items: center;
+  background-color: #588582;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  max-height: 65px;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+}
+
+.Map {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Div {
+  margin: 20px;
+}
+
+.Section {
+  align-items: center;
+  border-radius: 5%;
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 20px;
+}
+
+.Image {
+  border-radius: 10%;
+  max-width: 400px;
+}
+
+.Cards {
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+a {
+  color: black;
+  font-size: 15pt;
+  text-decoration: none;
+}

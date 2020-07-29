@@ -1,0 +1,13 @@
+.Perfil {
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  justify-content: center;
+}
+
+.Button-Perfil {
+  font-size: 14pt;
+  height: 50px;
+  margin: 10px 5px;
+  width: 50%;
+}
